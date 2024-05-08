@@ -57,6 +57,7 @@ set(SOURCE_FILES_NO_MAIN
         src/pymatching/sparse_blossom/search/search_detector_node.cc
         src/pymatching/sparse_blossom/search/search_flooder.cc
         src/pymatching/sparse_blossom/driver/user_graph.cc
+        src/pymatching/sparse_blossom/contrib/quick_updater.cc
         src/pymatching/rand/rand_gen.cc
         )
 
@@ -95,6 +96,7 @@ set(PERF_FILES
 
 set(PYTHON_API_FILES
         src/pymatching/sparse_blossom/driver/user_graph.pybind.cc
+        src/pymatching/sparse_blossom/contrib/quick_updater.pybind.cc
         src/pymatching/rand/rand_gen.pybind.cc
         src/pymatching/pymatching.pybind.cc
         )
